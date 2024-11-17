@@ -3,7 +3,7 @@ Creating a watch wallet using python
 Instead of importing a seed phrase which actually increases the vulnerability of your wallet when there is an unintentional oversight, this wallet only reads the address that has been entered in "wallet.txt"
 
 ## Features
-available features: mempool, balance in smallest unit (sat/satoshi), balance in Rupiah format, mempool fee rates, Bitcoin fear and greed index, exchange rate in USD
+available features: balance in smallest unit (sat/satoshi), balance in Rupiah format, mempool fee rates, Bitcoin fear and greed index, exchange rate in USD
 ## Termux Installation
 follow the command line below:
 ```
