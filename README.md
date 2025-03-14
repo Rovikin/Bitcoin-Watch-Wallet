@@ -24,3 +24,22 @@ python btc.py
 For the wallet.txt file, you can replace it with the address you want. You can fill in 1 or as many addresses as you want.
 This wallet will add up all the balances you input in the wallet.txt file.
 The wallet.txt file I included is just an example.
+## installation for C++
+In my repository I added for C++ version. You can compile it yourself with the following command:
+
+```
+g++ -std=c++17 -o btc btc.cpp -lcurl
+```
+
+If it doesn't work, please move btc.cpp and json.hpp to the home directory with the command:
+
+```
+cp -rf btc.cpp json.hpp ~/
+g++ -std=c++17 -o btc btc.cpp -lcurl
+```
+
+Make sure you are still in the project directory.
+
+```
+cd Bitcoin-Watch-Wallet
+```
