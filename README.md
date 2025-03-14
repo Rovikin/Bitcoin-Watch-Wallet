@@ -43,3 +43,9 @@ Make sure you are still in the project directory.
 ```
 cd Bitcoin-Watch-Wallet
 ```
+Or if you don't want to compile, you can directly use the executable with the command:
+
+```
+./btc
+```
+this can only run on termux armeabi-v7a (arm 32 bit). For universal, please compile it with the command above.
